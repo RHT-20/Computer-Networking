@@ -1,0 +1,2 @@
+This is a netbeans project.
+First run UDP_Server class then run UDP_Client class inside the src folder.
