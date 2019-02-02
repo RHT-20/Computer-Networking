@@ -22,11 +22,9 @@ C: MAIL FROM: bob@gmail.com
 C: RCPT TO: john@gmail.com  
 C: SUBJECT: First conversation with Bob via mail  
 C: DATE: 00:10:41, Sun, 3-Feb-2019  
-  
 C: Hello Bob.  
 C: How are you?  
 S: 250 OK  
 C: QUIT  
 S: 221 BYE  
-  
 [here, client's command sequence HELO, MAIL FROM:bob@gmail.com, RCPT TO:john@gmail.com,DATA, QUIT]  
