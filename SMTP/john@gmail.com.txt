@@ -1,0 +1,20 @@
+MAIL FROM: bob@gmail.com
+RCPT TO: john@gmail.com
+SUBJECT: First conversation with Bob via mail
+DATE: 23:53:07, Sat, 2-Feb-2019
+
+Hello Bob.
+How are you?
+
+****************************************************
+
+MAIL FROM: bob@gmail.com
+RCPT TO: john@gmail.com
+SUBJECT: First conversation with Bob via mail
+DATE: 23:53:44, Sat, 2-Feb-2019
+
+Hello Bob.
+How are you?
+
+****************************************************
+
