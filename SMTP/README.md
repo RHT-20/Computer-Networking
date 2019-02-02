@@ -27,4 +27,4 @@ C: How are you?
 S: 250 OK  
 C: QUIT  
 S: 221 BYE  
-[here, client's command sequence HELO, MAIL FROM:bob@gmail.com, RCPT TO:john@gmail.com,DATA, QUIT]  
+[here, client's command sequence HELO, MAIL FROM:bob@gmail.com[sender's mail ID], RCPT TO:john@gmail.com[recipient's mail ID],DATA, QUIT]  
