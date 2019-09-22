@@ -25,7 +25,7 @@ public class UDP_Server
         //System.out.println(b2);
         
         InetAddress IA = InetAddress.getLocalHost();
-        DatagramPacket DP2 = new DatagramPacket(b2, b2.length, IA, DP1.getPort());    /// message in byte format, message length, receiver IP address, receiver port number
+        DatagramPacket DP2 = new DatagramPacket(b2, b2.length, IA, DP1.getPort());    /// message in byte format, message length, receiver's IP address, receiver's port number
         DS.send(DP2);    /// send data
     }
 }
