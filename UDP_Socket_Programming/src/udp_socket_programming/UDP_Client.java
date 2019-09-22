@@ -18,7 +18,7 @@ public class UDP_Client
         //System.out.println(str+" "+b1);
         
         InetAddress IA = InetAddress.getLocalHost();
-        DatagramPacket DP1 = new DatagramPacket(b1, b1.length, IA, 8888);    /// message in byte format, message length, receiver IP address, receiver port number
+        DatagramPacket DP1 = new DatagramPacket(b1, b1.length, IA, 8888);    /// message in byte format, message length, receiver's IP address, receiver's port number
         
         DS.send(DP1);    /// send data
         
